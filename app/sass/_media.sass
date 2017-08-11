@@ -1,0 +1,102 @@
+@import "vars"
+
+@media (min-width: 1200px)
+  .container
+    width: 1075px
+
+@media (min-width: 768px)
+  .modal-dialog
+    width: 800px
+
+@media (max-width: 1199px)
+  .site-header
+    min-height: 400px
+    background-attachment: inherit
+    background-size: cover
+    color: #ffffff
+  .header-content
+    h1
+      font-size: 63px
+  .primary-content
+    width: calc(100% - 385px)
+    margin-top: 30px
+    margin-bottom: 30px
+
+@media (max-width: 991px)
+  .site-logo
+    width: 300px
+  .header-content
+    h1
+      font-size: 48px
+  .main-form
+    width: 300px
+  .primary-content
+    width: calc(100% - 335px)
+    h3
+      margin-bottom: 15px
+      font-size: 18px
+    p
+      margin-bottom: 20px
+      font-size: 15px
+  ul.list-style
+    li
+      font-size: 15px
+      padding-bottom: 10px
+  .site-footer
+    text-align: center
+
+@media (max-width: 767px)
+  .site-header
+    min-height: 300px
+    .container
+      width: 100%
+  .site-logo
+    bottom: 15px
+    width: auto
+    height: auto
+    padding: 25px
+  .header-content
+    h1
+      font-size: 40px
+  .top-phone
+    a
+      font-size: 22px
+  .modal-dialog .text-box
+    max-height: 400px
+
+@media (max-width: 650px)
+  .main-form
+    float: none
+    width: calc(100% + 30px)
+    margin: 0 -15px
+  .primary-content
+    float: none
+    width: 95%
+    margin: 30px auto
+  .site-footer
+    a
+      font-size: 13px
+
+@media (max-width: 570px)
+  .site-header
+    min-height: 0
+  .site-logo
+    position: relative
+    top: 0
+    bottom: auto
+    left: auto
+    right: auto
+    max-width: 150px
+    margin: 15px auto 20px
+    padding: 15px
+    img
+      max-width: 100%
+  .header-content
+    position: relative
+    bottom: auto
+    right: auto
+    margin-bottom: 20px
+    text-align: center
+    text-shadow: 0 2px 15px rgba(#000, .8)
+    h1
+      font-size: 34px
